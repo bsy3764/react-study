@@ -1,18 +1,21 @@
 import React, {Component, useState} from "react";
 
+
+/*
 import Average from "./Average1";
 
 const App = () => {
   return <Average/>
 }
+*/
 
-/*
+
 import Info1 from "./Info1";
 
 const App = () => {
   return <Info1/>
 }
-*/
+
 
 /*
 import Info1 from "./Info1";

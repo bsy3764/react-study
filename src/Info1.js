@@ -1,5 +1,32 @@
 import React, {useEffect, useState, useReducer} from "react";
+import CustomHook from "./CustomHook";
 
+const Info1 = () => {
+    const [state, onChange] = CustomHook({
+        name:'',
+        nickname:''
+    });
+    const {name, nickname} = state;
+
+    return (
+        <div>
+            <div>
+                <input name='name' value={name} onChange={onChange}/>
+                <input name='nickname' value={nickname} onChange={onChange}/>
+            </div>
+            <div>
+                <div>
+                    <b>이름 :</b>{name}
+                </div>
+                <div>
+                    <b>닉네임 :</b>{nickname}
+                </div>
+            </div>
+        </div>
+    )
+}
+
+/*
 function reducer(state, action) {
     return {
         ...state,
@@ -34,6 +61,7 @@ const Info1 = () => {
         </div>
     )
 }
+*/
 
 /*
 const Info1 = () => {
