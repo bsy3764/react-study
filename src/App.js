@@ -1,6 +1,18 @@
 import React, {Component, useState} from "react";
 
 
+import SassComponent from './SassComponent';
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <SassComponent />
+      </div>
+    );
+  }
+}
+
 /*
 import Average from "./Average1";
 
@@ -9,13 +21,13 @@ const App = () => {
 }
 */
 
-
+/*
 import Info1 from "./Info1";
 
 const App = () => {
   return <Info1/>
 }
-
+*/
 
 /*
 import Info1 from "./Info1";
