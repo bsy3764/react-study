@@ -1,6 +1,32 @@
 import React, {Component, useState} from "react";
 
+import StyledComponent from './StyledComponent';
+ 
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <StyledComponent />
+      </div>
+    );
+  }
+}
 
+/*
+import CSSModule from './CSSModule';
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <CSSModule />
+      </div>
+    );
+  }
+}
+*/
+
+/*
 import SassComponent from './SassComponent';
 
 class App extends Component {
@@ -12,6 +38,7 @@ class App extends Component {
     );
   }
 }
+*/
 
 /*
 import Average from "./Average1";
